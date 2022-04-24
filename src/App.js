@@ -1,9 +1,14 @@
 import React from 'react';
+import Clients from './parts/Clients';
+import Header from './parts/Header';
+import Hero from './parts/Hero';
 
 function App() {
   return (
     <div className='App'>
-      <h1 className='text-red-500'>Hello World</h1>
+      <Header />
+      <Hero />
+      <Clients />
     </div>
   );
 }
