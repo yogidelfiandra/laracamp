@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.shadow-header {
+  box-shadow: 0px 6px 60px rgba(22, 28, 51, 0.06);
+}
+
+.btn {
+  @apply py-2.5 px-9 text-base font-medium rounded-full border-2 transition duration-500;
+}
+
+.btn-primary {
+  @apply border-primary bg-primary hover:bg-purple-700 hover:border-purple-700 text-white;
+}
+
+.btn-secondary {
+  @apply bg-purple-100 border-purple-200 text-primary hover:border-primary;
+}
+
+/* Header */
+.text-navbar {
+  @apply text-base text-dark hover:text-primary font-normal transition duration-300;
+}
+
+/* Hero */
+.overlay {
+  @apply bg-white py-3.5 px-4 w-[213px] absolute rounded-xl;
+}
+
+.title-img {
+  @apply text-base font-medium leading-6 text-slate-900 ml-1.5;
+}
+
+.description-img {
+  @apply font-normal text-sm text-gray-600 mt-3 leading-4.5;
+}
+
+.video {
+  @apply absolute bg-primary w-[50px] h-[50px] -translate-x-1/2 -translate-y-1/2 bg-no-repeat bg-center rounded-full;
+  background-image: url('./assets/icons/icon-play.svg');
+  top: 50%;
+  left: 50%;
+}
+
+/* Clients */
+.clients-img {
+  @apply w-full flex-auto md:flex-initial md:w-auto;
+}
