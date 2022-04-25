@@ -38,14 +38,14 @@ export default function Header() {
             <div className='flex items-center'>
               <nav
                 className={[
-                  'nav-menu lg:static lg:block lg:rounded-none lg:bg-transparent lg:shadow-none',
+                  'nav-menu md:static md:block md:rounded-none md:bg-transparent md:px-0 md:shadow-none',
                   click
-                    ? 'absolute top-16 right-4 w-full max-w-[15.625rem] rounded bg-white py-5 px-5 shadow-lg'
+                    ? 'absolute top-16 right-4 w-full max-w-[15.625rem] rounded bg-white py-5 px-5 shadow-lg sm:max-w-[31.25rem]'
                     : 'hidden',
                 ].join(' ')}
               >
                 {/* desktop */}
-                <ul className='hidden lg:flex lg:space-x-7 lg:pl-12'>
+                <ul className='hidden md:flex md:space-x-7 md:pl-12'>
                   <li>
                     <NavLink
                       to='/program'
@@ -85,7 +85,7 @@ export default function Header() {
                 </ul>
 
                 {/* mobile */}
-                <ul className='block space-y-5 lg:hidden'>
+                <ul className='block space-y-5 md:hidden'>
                   <li>
                     <NavLink
                       to='/program'
@@ -144,6 +144,27 @@ export default function Header() {
               Sign Up
             </a>
           </div>
+
+          {/* Tablet */}
+          <nav
+            className={[
+              click
+                ? 'z-[50] hidden md:absolute md:top-16 md:right-4 md:block md:w-full md:max-w-[15.625rem] md:rounded md:bg-white md:py-5 md:px-5 md:shadow-lg lg:hidden'
+                : 'hidden',
+            ].join(' ')}
+          >
+            <ul className='block space-y-5'>
+              <li className='flex flex-wrap space-y-3 text-center'>
+                <a href='#' className='btn btn-secondary w-full'>
+                  Sign In
+                </a>
+                <a href='#' className='btn btn-primary w-full'>
+                  Sign Up
+                </a>
+              </li>
+            </ul>
+          </nav>
+
           <div className='hamburger lg:hidden'>
             <button
               className='rounded-md bg-dark px-1.5 py-1.5 transition duration-500'
