@@ -10,15 +10,15 @@ body {
 
 /* button */
 .btn {
-  @apply py-2.5 px-9 text-base font-medium rounded-full border-2 transition duration-500;
+  @apply rounded-full border-2 py-2.5 px-9 text-base font-medium transition duration-500;
 }
 
 .btn-primary {
-  @apply border-primary bg-primary hover:bg-purple-700 hover:border-purple-700 text-white;
+  @apply border-primary bg-primary text-white hover:border-purple-700 hover:bg-purple-700;
 }
 
 .btn-secondary {
-  @apply bg-purple-100 border-purple-200 text-primary hover:border-primary;
+  @apply border-purple-200 bg-purple-100 text-primary hover:border-primary;
 }
 
 /* Header */
@@ -31,24 +31,24 @@ body {
 }
 
 .text-navbar {
-  @apply text-base text-dark hover:text-primary font-normal transition duration-300;
+  @apply text-base font-normal text-dark transition duration-300 hover:text-primary;
 }
 
 /* Hero */
 .overlay {
-  @apply bg-white py-3.5 px-4 w-[213px] absolute rounded-xl;
+  @apply absolute w-[213px] rounded-xl bg-white py-3.5 px-4;
 }
 
 .title-img {
-  @apply text-base font-medium leading-6 text-slate-900 ml-1.5;
+  @apply ml-1.5 text-base font-medium leading-6 text-slate-900;
 }
 
 .description-img {
-  @apply font-normal text-sm text-gray-600 mt-3 leading-4.5;
+  @apply mt-3 text-sm font-normal leading-4.5 text-gray-600;
 }
 
 .video {
-  @apply absolute bg-primary w-[50px] h-[50px] -translate-x-1/2 -translate-y-1/2 bg-no-repeat bg-center rounded-full;
+  @apply absolute h-[50px] w-[50px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary bg-center bg-no-repeat;
   background-image: url('./assets/icons/icon-play.svg');
   top: 50%;
   left: 50%;
@@ -56,5 +56,5 @@ body {
 
 /* Clients */
 .clients-img {
-  @apply w-full flex-auto md:flex-initial md:w-auto;
+  @apply w-full flex-auto md:w-auto md:flex-initial;
 }
