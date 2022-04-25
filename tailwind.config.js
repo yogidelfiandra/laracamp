@@ -23,6 +23,9 @@ module.exports = {
         slate: {
           900: '#211B3D',
         },
+        yellow: {
+          300: '#F3BF39',
+        },
       },
       fontSize: {
         sm: ['0.875rem', { lineHeight: '1.3125rem' }],

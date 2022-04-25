@@ -36,15 +36,15 @@ body {
 
 /* Hero */
 .overlay {
-  @apply absolute w-[190px] rounded-xl bg-white py-3.5 px-4 lg:w-[213px];
+  @apply absolute w-[213px] rounded-xl bg-white py-3.5 px-4;
 }
 
 .title-img {
-  @apply ml-1.5 text-sm font-medium leading-6 text-slate-900 lg:text-base;
+  @apply ml-1.5 text-base font-medium leading-6 text-slate-900;
 }
 
 .description-img {
-  @apply mt-3 text-xs font-normal leading-4.5 text-gray-600 lg:text-sm;
+  @apply mt-3 text-sm font-normal text-gray-600;
 }
 
 .video {
@@ -57,4 +57,13 @@ body {
 /* Clients */
 .clients-img {
   @apply w-full sm:w-auto;
+}
+
+/* Benefits */
+.icon-benefits {
+  @apply mx-auto flex h-14 w-14 items-center rounded-full bg-center bg-no-repeat;
+}
+
+.overlay-2 {
+  @apply absolute w-[235px] rounded-xl bg-white py-3.5 px-4;
 }
