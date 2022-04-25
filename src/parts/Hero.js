@@ -29,7 +29,7 @@ export default function Hero() {
               className='w-80 lg:w-[400px] xl:w-[490px]'
             />
 
-            <div className='overlay hidden md:-left-10 md:-top-14 md:block lg:-left-4 xl:-left-0 xl:-top-10'>
+            <div className='overlay -left-4 -top-14 hidden md:block xl:-left-0 xl:-top-10'>
               <div className='flex items-center'>
                 <img src='/icons/ic_check.svg' alt='' className='h-5 w-5' />
                 <span className='title-img'>Great & Solid</span>
@@ -38,7 +38,7 @@ export default function Hero() {
                 We help people how to <br /> finish the project together
               </p>
             </div>
-            <div className='overlay hidden md:-bottom-20 md:-right-8 md:block	lg:-bottom-12 lg:-right-0'>
+            <div className='overlay -bottom-20 -right-4 hidden md:block	lg:-bottom-12 lg:-right-0'>
               <div className='flex items-center'>
                 <img src='/icons/ic_check.svg' alt='' className='h-5 w-5' />
                 <span className='title-img'>Up to Date</span>

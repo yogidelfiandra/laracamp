@@ -149,7 +149,7 @@ export default function Header() {
           <nav
             className={[
               click
-                ? 'z-[50] hidden md:absolute md:top-16 md:right-4 md:block md:w-full md:max-w-[15.625rem] md:rounded md:bg-white md:py-5 md:px-5 md:shadow-lg lg:hidden'
+                ? 'absolute top-16 right-4 z-[50] hidden w-full max-w-[15.625rem] rounded bg-white py-5 px-5 shadow-lg md:block lg:hidden'
                 : 'hidden',
             ].join(' ')}
           >
