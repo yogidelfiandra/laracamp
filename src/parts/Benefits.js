@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Benefits() {
   return (
-    <section className='py-20 xl:py-36'>
+    <section className='py-20 lg:py-36'>
       <div className='container'>
         <div className='w-full pb-16 text-center md:pb-20'>
           <h2 className='mb-2 text-base font-semibold uppercase text-secondary'>
@@ -120,13 +120,13 @@ export default function Benefits() {
           </div>
 
           <div className='relative hidden w-full justify-center lg:flex lg:w-1/2 xl:pr-20'>
-            <img src='images/image-1.png' alt='' className='w-[340px]' />
+            <img src='images/image-2.png' alt='' className='w-[340px]' />
 
-            <div className='absolute left-14 -top-4 flex h-14 w-14 items-center rounded-full border-4 border-white bg-primary xl:left-24'>
+            <div className='absolute left-14 -top-4 flex h-14 w-14 items-center rounded-full border-4 border-white bg-primary xl:left-20'>
               <div className='mx-auto text-white'>2.</div>
             </div>
 
-            <div className='overlay-2 -bottom-10 right-28'>
+            <div className='overlay-2 -bottom-12 right-8 xl:-bottom-10 xl:right-28'>
               <div className='flex items-center'>
                 <img src='/icons/ic_check.svg' alt='' className='h-5 w-5' />
                 <span className='title-img'>Fokus</span>
@@ -140,7 +140,7 @@ export default function Benefits() {
 
         <div className='flex flex-wrap items-center pt-28 lg:pt-40'>
           <div className='relative hidden w-full justify-center lg:flex lg:w-1/2 xl:pl-20'>
-            <img src='images/image-1.png' alt='' className='w-[340px]' />
+            <img src='images/image-3.png' alt='' className='w-[340px]' />
 
             <div className='absolute left-14 -top-4 flex h-14 w-14 items-center rounded-full border-4 border-white bg-secondary xl:left-40'>
               <div className='mx-auto text-white'>3.</div>
