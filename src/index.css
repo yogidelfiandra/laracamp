@@ -48,7 +48,7 @@ body {
 }
 
 .video {
-  @apply absolute h-[50px] w-[50px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary bg-center bg-no-repeat;
+  @apply absolute h-[50px] w-[50px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary bg-center bg-no-repeat transition duration-500 hover:bg-purple-700;
   background-image: url('./assets/icons/icon-play.svg');
   top: 50%;
   left: 50%;
@@ -66,4 +66,9 @@ body {
 
 .overlay-2 {
   @apply absolute w-[235px] rounded-xl bg-white py-3.5 px-4;
+}
+
+/* list pricing */
+.list-group-item {
+  @apply mb-4 flex items-center text-base font-medium text-slate-900;
 }

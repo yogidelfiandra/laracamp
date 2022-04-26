@@ -3,6 +3,7 @@ import Benefits from './parts/Benefits';
 import Clients from './parts/Clients';
 import Header from './parts/Header';
 import Hero from './parts/Hero';
+import Price from './parts/Price';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Hero />
       <Clients />
       <Benefits />
+      <Price />
+      <Clients />
     </div>
   );
 }
