@@ -2,17 +2,17 @@ import React from 'react';
 
 export default function Price() {
   return (
-    <section className='mb-52 bg-[#4D1DAB] pt-[70px] md:relative md:h-[900px] xl:h-[620px]'>
+    <section className='mb-52 h-[1450px] bg-[#4D1DAB] pt-[70px] md:relative md:h-[900px] xl:h-[620px]'>
       <div className='container'>
         <div className='flex flex-wrap justify-center'>
-          <div className='w-full pt-32 pb-16 text-center md:pb-20 xl:w-2/5 xl:text-left '>
+          <div className='w-full pb-16 text-center md:pb-20 xl:w-2/5 xl:pb-0 xl:pt-32 xl:text-left '>
             <h2 className='mb-2 text-base font-semibold uppercase text-secondary'>
               Good Investment
             </h2>
             <h3 className='text-2xl font-semibold text-white sm:text-3xl'>
               Start Your Journey
             </h3>
-            <p className='mt-7 mb-7 text-base font-normal leading-7 text-[#CBB0FF]'>
+            <p className='my-7 text-base font-normal leading-7 text-[#CBB0FF]'>
               We do have a couple of plans that might fit for you.{' '}
               <br className='hidden sm:block' /> Kindly download our full
               syallbus below.
@@ -24,7 +24,7 @@ export default function Price() {
 
           <div className='flex w-full flex-wrap justify-center text-center md:absolute md:inset-x-0 md:-bottom-60 md:space-x-10 xl:relative xl:left-0 xl:top-0 xl:w-7/12 xl:space-x-8'>
             {/* Pricing 1 */}
-            <div className='w-full sm:w-4/5 md:w-5/12 lg:w-4/12 xl:w-[310px]'>
+            <div className='w-full sm:w-3/5 md:w-5/12 lg:w-4/12 xl:w-[310px]'>
               <div className='rounded-[40px] border bg-white px-5 py-8'>
                 <h4 className='text-base font-semibold uppercase text-secondary'>
                   Gila Belajar
@@ -114,7 +114,7 @@ export default function Price() {
             </div>
 
             {/* Pricing 2 */}
-            <div className='mt-10 w-full sm:w-4/5 md:mt-0 md:w-5/12 lg:w-4/12 xl:w-[310px]'>
+            <div className='mt-10 w-full sm:w-3/5 md:mt-0 md:w-5/12 lg:w-4/12 xl:w-[310px]'>
               <div className='rounded-[40px] border bg-white px-5 py-8'>
                 <h4 className='text-base font-semibold uppercase text-secondary'>
                   Mulai Belajar
