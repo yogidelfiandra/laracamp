@@ -25,7 +25,7 @@ export default function Header() {
   };
 
   return (
-    <header className='shadow-header absolute w-full'>
+    <header className='header-section'>
       <div className='container'>
         <div className='relative flex items-center justify-between'>
           <div className='flex'>
@@ -38,7 +38,7 @@ export default function Header() {
             <div className='flex items-center'>
               <nav
                 className={[
-                  'nav-menu md:static md:block md:rounded-none md:bg-transparent md:px-0 md:shadow-none',
+                  'md:static md:block md:rounded-none md:bg-transparent md:px-0 md:shadow-none',
                   click
                     ? 'absolute top-16 right-4 w-full max-w-[15.625rem] rounded bg-white py-5 px-5 shadow-lg sm:max-w-[31.25rem]'
                     : 'hidden',
@@ -49,7 +49,7 @@ export default function Header() {
                   <li>
                     <NavLink
                       to='/program'
-                      className='text-navbar'
+                      className='nav-link'
                       style={navLinkStyles}
                     >
                       Program
@@ -58,7 +58,7 @@ export default function Header() {
                   <li>
                     <NavLink
                       to='/mentor'
-                      className='text-navbar'
+                      className='nav-link'
                       style={navLinkStyles}
                     >
                       Mentor
@@ -67,7 +67,7 @@ export default function Header() {
                   <li>
                     <NavLink
                       to='/pricing'
-                      className='text-navbar'
+                      className='nav-link'
                       style={navLinkStyles}
                     >
                       Pricing
@@ -76,7 +76,7 @@ export default function Header() {
                   <li>
                     <NavLink
                       to='/business'
-                      className='text-navbar'
+                      className='nav-link'
                       style={navLinkStyles}
                     >
                       Business
@@ -89,7 +89,7 @@ export default function Header() {
                   <li>
                     <NavLink
                       to='/program'
-                      className='text-navbar'
+                      className='nav-link'
                       style={navLinkStyles}
                     >
                       Program
@@ -98,7 +98,7 @@ export default function Header() {
                   <li>
                     <NavLink
                       to='/mentor'
-                      className='text-navbar'
+                      className='nav-link'
                       style={navLinkStyles}
                     >
                       Mentor
@@ -107,7 +107,7 @@ export default function Header() {
                   <li>
                     <NavLink
                       to='/pricing'
-                      className='text-navbar'
+                      className='nav-link'
                       style={navLinkStyles}
                     >
                       Pricing
@@ -116,19 +116,19 @@ export default function Header() {
                   <li>
                     <NavLink
                       to='/business'
-                      className='text-navbar'
+                      className='nav-link'
                       style={navLinkStyles}
                     >
                       Business
                     </NavLink>
                   </li>
                   <li className='flex flex-wrap space-y-3 text-center'>
-                    <a href='#' className='btn btn-secondary w-full'>
+                    <Link to='/login' className='btn btn-secondary w-full'>
                       Sign In
-                    </a>
-                    <a href='#' className='btn btn-primary w-full'>
+                    </Link>
+                    <Link to='/signup' className='btn btn-primary w-full'>
                       Sign Up
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </nav>
@@ -137,12 +137,12 @@ export default function Header() {
 
           {/* Desktop */}
           <div className='hidden lg:flex lg:space-x-5'>
-            <a href='#' className='btn btn-secondary'>
+            <Link to='/signin' className='btn btn-secondary'>
               Sign In
-            </a>
-            <a href='#' className='btn btn-primary'>
+            </Link>
+            <Link to='/signup' className='btn btn-primary'>
               Sign Up
-            </a>
+            </Link>
           </div>
 
           {/* Tablet */}
@@ -155,12 +155,12 @@ export default function Header() {
           >
             <ul className='block space-y-5'>
               <li className='flex flex-wrap space-y-3 text-center'>
-                <a href='#' className='btn btn-secondary w-full'>
+                <Link to='/signin' className='btn btn-secondary w-full'>
                   Sign In
-                </a>
-                <a href='#' className='btn btn-primary w-full'>
+                </Link>
+                <Link to='/signup' className='btn btn-primary w-full'>
                   Sign Up
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

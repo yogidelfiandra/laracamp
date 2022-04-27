@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <section className='pt-36 pb-10 lg:pt-60'>
+    <section className='hero-section'>
       <div className='container'>
         <div className='flex flex-wrap items-center justify-center md:justify-evenly'>
           <div className='w-full px-5 pb-24 text-center md:w-2/5 md:pb-0 md:text-left'>
@@ -18,9 +18,7 @@ export default function Hero() {
               <br className='hidden sm:block md:hidden xl:block' /> are really
               passionate in the programming.
             </p>
-            <a href='#' className='btn btn-primary'>
-              Get Started
-            </a>
+            <button className='btn btn-primary'>Get Started</button>
           </div>
           <div className='relative flex w-full justify-center md:w-1/2 md:px-5 lg:w-1/2'>
             <img

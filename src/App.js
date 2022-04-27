@@ -9,16 +9,18 @@ import Testimonials from './parts/Testimonials';
 
 function App() {
   return (
-    <div className='App'>
+    <>
       <Header />
       <Hero />
-      <Clients />
-      <Benefits />
-      <Price />
-      <Clients />
-      <Testimonials />
+      <main>
+        <Clients />
+        <Benefits />
+        <Price />
+        <Clients />
+        <Testimonials />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
 

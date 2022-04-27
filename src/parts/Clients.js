@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Clients() {
   return (
-    <section className='pt-10 md:pt-20'>
+    <section className='client-section'>
       <div className='container'>
         <div className='flex flex-wrap items-center justify-center space-y-8 text-center sm:space-y-0 sm:space-x-3 md:space-x-6 lg:space-x-12'>
           <div className='clients-img'>
